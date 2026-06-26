@@ -9,9 +9,14 @@ void show(){
 class Child extends Parent{
 
 }
+class Son extends Child{
+
+}
 public class inherii1 {
     public static void main(String[] args) {
         Child c = new Child();
         c.show();
+        Son s= new Son();
+        s.show();
     }
 }
