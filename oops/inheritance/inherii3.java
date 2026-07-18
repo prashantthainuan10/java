@@ -14,7 +14,7 @@ class Animal{
     System.out.println("name");
     State s = new State();
     return s;
-;
+
  }
 }
 class Tiger extends Animal   {
